@@ -50,6 +50,7 @@ public class SistemaLivros{
         livrolivraria.Ler();
         livrolivraria.Cadastrar();
         livrolivraria.Localizar();
+        livrolivraria.Vender();
 
 
     }
