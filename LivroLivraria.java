@@ -4,15 +4,12 @@ public class LivroLivraria extends Livro {
     String novoUsado;
     int preco;
     String categoria;
+    String localPrateleira;
 
 
     //metodos
 
     public void Vender(){
         System.out.println("Estou Vendendo...");
-    }
-
-    public void Comprar(){
-        System.out.println("Estou comprando...");
     }
 }

@@ -45,6 +45,7 @@ public class SistemaLivros{
        livrolivraria.novoUsado = "novo";
        livrolivraria.preco = 50;
        livrolivraria.categoria = "romance";
+       livrolivraria.localPrateleira = "AB";
 
         livrolivraria.Ler();
         livrolivraria.Cadastrar();
