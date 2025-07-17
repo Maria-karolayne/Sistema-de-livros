@@ -7,6 +7,18 @@ public class Livro{
     private int nrPaginas;
     private int edicao;
 
+    //metodo costrutor
+
+Livro(){
+    this.codigo = 0 ;
+    this.nrPaginas = 0 ;
+    this.edicao = 0 ;
+    this.titulo = "Nenhum livro";
+    this.autor = "";
+    this.editora = "";
+    
+}
+
     //metodos
 
     public void Ler(){
@@ -67,7 +79,7 @@ public class Livro{
     }
 
     public void setEdicao (int edicao ){
-        this.edicao = edicao;
+        this.edicao = edicao ;
     }
 
 
