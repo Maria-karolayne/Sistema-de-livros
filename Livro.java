@@ -7,7 +7,7 @@ public class Livro{
     private int nrPaginas;
     private int edicao;
 
-    //metodo costrutor
+    //metodo costrutor (serve para construir seu obejo com valores default)
 
 Livro(){
     this.codigo = 0 ;
@@ -17,6 +17,25 @@ Livro(){
     this.autor = "";
     this.editora = "";
     
+}
+
+Livro(int codigo, String titulo){
+    this.codigo = codigo ;
+    this.titulo = titulo;
+    this.autor = "";
+    this.editora = "";
+    this.nrPaginas = 0 ;
+    this.edicao = 0 ;
+
+}
+
+Livro(int codigo,String titulo ,String autor ,String editora,int nrPaginas ,int edicao){
+    this.codigo = codigo ;
+    this.titulo = titulo;
+    this.autor = autor ;
+    this.editora = editora;
+    this.nrPaginas =  nrPaginas;
+    this.edicao =  edicao;
 }
 
     //metodos

@@ -97,5 +97,34 @@ public class SistemaLivros{
     System.out.println("Novo livro:"+novoLivro.getTitulo());
     novoLivro.setTitulo("Novo titulo legal");
     System.out.println("Novo livro:"+novoLivro.getTitulo());
+    
+
+    //metodo construtor com parametros
+    Livro livro2 = new Livro (99, "Titanic");
+    System.out.println ("Livro 2 :"+livro2.getTitulo());
+
+    //metodo construtor com todos os parametros
+    Livro livro3 = new Livro (1,
+                              "A menina que roubava livros",
+                              "Andreisse",
+                              "Bosch",
+                              600,
+                              1
+                              );
+    System.out.println ("Livro 3 :"+livro3.getTitulo());
+
+    LivroBiblioteca livrobiblioteca2 = new LivroBiblioteca (2,
+                                                           "Crepusculo",
+                                                           "Vampiros",
+                                                           "DUDAO SA",
+                                                            20,
+                                                            3,
+                                                            "Andar 3",
+                                                            "Romance",
+                                                            5,
+                                                            "Marcelo");
+                                                            
+    System.out.println ("Livro biblioteca :"+livrobiblioteca2.getTitulo());
+
     }
 }
