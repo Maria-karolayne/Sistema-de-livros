@@ -60,5 +60,23 @@ public class LivroBiblioteca extends Livro {
     public void setNomeQuemEmprestou (String nomeQuemEmprestou ){
         this.nomeQuemEmprestou = nomeQuemEmprestou;
     }
+
+    @Override
+    public void Localizar(){
+        System.out.println("Estou Localizando um livro da biblioteca.");
+    }
+
+    @Override
+    public void Cadastrar(){
+        System.out.println("Cadastrar livro no sistema da biblioteca");
+    }
+
+    @Override
+    public void Ler(){
+        System.out.println("Lendo o livro da biblioteca");
+    }
+
+    
+
     
 }

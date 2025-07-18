@@ -45,4 +45,20 @@ public class LivroLivraria extends Livro {
         this.localPrateleira = localPrateleira ;
     }
 
+    @Override
+    public void Localizar(){
+        System.out.println("Estou Localizando um livro da livraria.");
+    }
+    
+    @Override
+    public void Cadastrar(){
+        System.out.println("Cadastrar livro na livraria");
+    }
+
+    @Override
+    public void Ler(){
+        System.out.println("Lendo o livro da livraria");
+    }
+
+
 }
